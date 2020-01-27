@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <title>
+    This is my fist page
+  </title>
+</head>
+
+<body>
+  <!--Whatever goes here does not show up-->
+  <h1>This is my dog.</h1>
+  <p>His name is <b>Max.</b></p>
+  <p>He is an <i>American Eskimo Dog.</i></p>
+  <p>Check out more about this breed <a href="https://en.wikipedia.org/wiki/American_Eskimo_Dog">here.</a></p>
+
+<img src="file:///Users/doorsneid/Desktop/IMG_1241.JPG" alt="description of the image">
+<ul>
+  <li>I have clear evidence he is the best dog</li>
+  <li>Here's why</li>
+</ul>
+<hr>
+<ol>
+  <li>Because</li>
+  <li>He is the best</li>
+</ol>
+
+<address>
+Keeping my address a secret
+</address>
+<table>
+<th>More reasons my dog is the best</th>
+<tr>
+  <td>He is a fluff</td>
+</tr>
+
+</table>
+</body>
+
+
+
+
+
+</html>
