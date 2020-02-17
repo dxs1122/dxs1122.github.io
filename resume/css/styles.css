@@ -33,7 +33,8 @@ height:20px;
 background-color: white;
 }
 .special{
-color: #001829;
+color: black;
+text-shadow: black 1px 0 10px;
 }
 h3{
   color:#01243D;
