@@ -32,8 +32,8 @@ width:200px;
 height:20px;
 background-color: white;
 }
-.box-3{
-border: solid 1px blue;
+.special{
+text-shadow: black 1px 0 10px;
 }
 h3{
   color:#01243D;
