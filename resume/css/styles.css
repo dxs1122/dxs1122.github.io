@@ -1,0 +1,45 @@
+a{
+  color:teal;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-shadow: black 1px 0 10px;
+}
+body{
+  color: black;
+  background-color: Silver;
+}
+.content-1{
+  border:solid 4px teal;
+  display:inline-block;
+  box-shadow: black 1px 0 10px;
+}
+.content-2{
+  border:solid 4px teal;
+  display:inline-block;
+  box-shadow: black 1px 0 10px;
+  background-color: white;
+}
+.box-1{
+border: solid 1px teal;
+width:200px;
+height:20px;
+}
+.box-2{
+border: solid 1px teal;
+width:200px;
+height:20px;
+background-color: white;
+}
+.box-3{
+
+}
+h3{
+  color:#01243D;
+  font-family: 'Squada One', cursive;
+}
+h1{
+color:##001829;
+font-family: 'Squada One', cursive;
+}

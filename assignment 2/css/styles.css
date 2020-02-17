@@ -1,0 +1,37 @@
+body{
+  color:black;
+}
+.main-title{
+  color: red;
+}
+#main-text{
+  color:green;
+}
+p{
+  color:#3480B4;
+}
+div{
+  width:200px;
+  height:200px;
+  border:solid 4px #333333;
+  margin:10px;
+  padding:10px;
+  display:inline-block;
+}
+.box{
+  background-color: #AFB8CD;
+}
+.image-bg{
+  background-image: url("../images/b-button-blood-type.png");
+  background-size: contain;
+  width:200px;
+  height:200px;
+}
+.content-1{
+  background-color: #000000;
+  color: #FFFFFF
+}
+body{
+  background-image: url("../images/Thinking.png");
+  background-size: contain;
+}
