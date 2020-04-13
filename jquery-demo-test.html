@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Crepe Recipe</title>
+  <link rel="stylesheet" href="css/crepe.css">
+
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Easy <span>5</span>minute<br>Crepe Recipe</h1>
+    </header>
+    <div class="servings">For 7-8</div>
+    <section class="intro">
+      <button class="step1" type=<button type="button" name="Start"></button>
+    </section>
+    <section class="ingredients">
+      <button class="step2" type=<button type="button" name="Next"></button>
+    </section>
+    <section class="mix">
+
+    </section>
+    <section class="cook">
+
+    </section>
+    <section class="serve">
+
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Step One
+      $(".step1").click(function() {
+        $(".intro").hide(1000);
+        $(".ingredients").show(1000)
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body{
+  background-image: url("../images/pexels-photo-326311.jpeg");
+  font-family: 'Raleway';
+}
+h1,h2{
+  font-family: 'Abril Fatface';
+}
+h3{
+  font-family: 'Abril Fatface';
+  color: purple;
+}
+main{
+  padding: 4rem 4rem 4rem 4rem;
+  background-color:white;
+  width: 60%;
+}
+button{
+  font-size: 1.5em;
+  background-color: purple;
+  color: white;
+  border-color: white;
+}
+.hide{
+  display: none;
+}
+
+.intro{
+
+}
+.sauce{
+
+}
+.meatprep{
+
+}
+
+.explain{
+color: grey;
+}
+.ingredients{
+
+}

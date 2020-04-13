@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>How to Make Good Burgers</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>How To Make Fast Food Burgers at Home</h1>
+      <h2>By David Sneider</h2>
+    </header>
+
+    <section class="intro">
+      <div class="explain">
+        <p>Having been in quarantine for over a month without being able to eat out, it is hard not to crave a <i>good burger.</i></p>
+        <p>I'm here to tell you that you can make burgers in your own home that taste like they come from In N' Out, McDonalds, Shake Shack etc (but are <i>tastier and more fresh</i>).</p>
+      </div>
+      <div class="photo1">
+        <img src="" alt="">
+      </div>
+      <button class="step1" type="button" name="Start">Start</button>
+    </section>
+
+    <section class="sauce hide">
+      <div class="explain">
+        <h3>Sauce</h3>
+        <p>Step 1? Yes! No good burger is complete without a good sauce.</p>
+        <p>Here is my favorite recipe. It is like an elevated In 'n Out or Big Mac sauce. You will want to put it on <i>everything.</i> Exact measurements are given, but not necessary.</p>
+      </div>
+      <div class="ingredients">
+        <ul>
+          <li>1/2 cup mayonnaise</li>
+          <li>1/4 cup ketchup</li>
+          <li>1 tablespoon finely chopped pickles</li>
+          <li>2 teaspoons of vinegar (add more if you don't have pickles)</li>
+          <li>1 teaspoon paprika</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+      </div>
+      <button class="backintro" button type="button" name="Back">Back</button>
+      <button class="step2" button type="button" name="Next">Next</button>
+    </section>
+
+    <section class="meatprep hide">
+      <div class="explain">
+        <h3>Preparing the Meat</h3>
+        <p>Believe it or not, it is possible to make juicy, crispy burgers in minutes. What's the key?</p>
+        <ol>
+          <li>Preferably, use 80/20 lean/fat ground beef</li>
+          <li>Form golf-ball-sized patties without over-stressing the meat to ensure maximum tenderness/juicyness.</li>
+          <li><b>Crucial:</b> Season both side of the patties liberally! This ensures--through the power of the Maillard Reaction--that they form a nice crust. To those who are health concious, much of this seasoning will disappear after cooking.</li>
+        </ol>
+      </div>
+      <button class="backsauce" button type="button" name="Back">Back</button>
+      <button class="step3" button type="button" name="Next">Next</button>
+    </section>
+
+    <section class="cooking hide">
+      <div class="Explain">
+      <h3>Time to Cook!</h3>
+      <p>Remember: Great burgers can take minutes. How? Smash-burger style!</p>
+      </div>
+      <ol>
+        <li>On high heat, put a minimal amount of oil in a pan. Before it reaches its peak heat for the meat, put the buns on to toast.</li>
+        <li>Once the pan has reached peak heat, take buns off and place patties on.</li>
+        <li>Take two spatulas and <i>flatten/smash</i> the patties. Each side will take around 3-4 minutes to cook.</li>
+        <li>Once one side is cooked and you flip the burgers, if you desire cheese, place it on the cooked side of the patties and cover the them with a lid so that the cheese steams.</li>
+      </ol>
+      <button class="backmeatprep" button type="button" name="Back">Back</button>
+      <button class="step4" button type="button" name="Next">Next</button>
+    </section>
+
+
+    <section class="veggie hide">
+      <h3>Veggie Option-Portabello Burger</h3>
+      <p>Let's not forget about veggie-lovers...Even Shake Shack serves a Portabello burger...</p>
+      <ol>
+        <li>Cut off the stems of the mushrooms to create a burger shape.</li>
+        <li>Portabellos taste fine by themselves, but marinating them in olive oil and balsamic vinegar for 15-30 minutes at room temperature will deeply enhances their flavor and texture.</li>
+        <li>Preheat a skillet on medium heat with a decent amount olive oil and brown both sides of the mushroom, like a beef burger, for about 6 minutes each side.</li>
+        <li>Season afterwards with salt and pepper.</li>
+      </ol>
+
+      <button class="backcooking" button type="button" name="Back">Back</button>
+      <button class="step5" button type="button" name="Next">Next</button>
+    </section>
+
+    <section class="toppings hide">
+      <h3>Extras?</h3>
+      <p>You have your bun, your sauce, your meat/mushroom and your bun. For some, that's good enough.</p>
+      <p>But what if you want In 'n Out "animal style"? Add <b>carmelized onions</b> by cooking onions in a pan at a low heat for at least 30 minutes.</p>
+      <p>But what if you miss the taste of a Big Mac? Double up on meat, add one extra bun.</p>
+      <p>The list goes on and on.</p>
+      <h3>Have fun!</h3>
+      <!-- <button class="backveggie" button type="button" name="Back">Back</button>
+      <button class="beginning" button type="button" name="Beginning">Beginning</button> -->
+    </section>
+
+
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Intro
+      $(".step1").click(function(){
+        $(".intro").hide(500);
+        $(".sauce").show(500);
+      });
+      // Step One sauce
+      $(".step2").click(function(){
+        $(".sauce").slideUp(500);
+        $(".meatprep").show(500);
+      });
+
+      $(".backintro").click(function(){
+        $(".sauce").slideDown(500);
+        $(".sauce").hide(500);
+        $(".intro").show(500);
+      });
+
+      // Step Two meatprep
+      $(".step3").click(function(){
+        $(".meatprep").slideUp(500);
+        $(".cooking").show(500);
+      });
+
+      $(".backsauce").click(function(){
+        $(".meatprep").slideDown(500);
+        $(".meatprep").hide(500);
+        $(".sauce").show(500);
+      });
+
+      // Step Three cooking
+      $(".step4").click(function(){
+        $(".cooking").slideUp(500);
+        $(".veggie").show(500);
+      });
+
+      $(".backmeatprep").click(function(){
+        $(".cooking").slideDown(500);
+        $(".cooking").hide(500);
+        $(".meatprep").show(500);
+      });
+
+      // Step Four veggie
+      $(".step5").click(function(){
+        $(".veggie").slideUp(500);
+        $(".toppings").show(500)
+      });
+
+      $(".backcooking").click(function(){
+        $(".veggie").slideDown(500);
+        $(".veggie").hide(500);
+        $(".cooking").show(500);
+      });
+
+      // Step Five toppings
+      // $(".beginning").click(function()){
+      //   $(".toppings").fadeOut(100);
+      //   $(".intro").fadeIn(500);
+      // });
+      //
+      // $(".backveggie").click(function(){
+      //   $(".toppings").slideDown(500);
+      //   $(".toppings").hide(500);
+      //   $(".veggie").show(500);
+      // });
+
+    });
+  </script>
+</body>
+
+</html>
