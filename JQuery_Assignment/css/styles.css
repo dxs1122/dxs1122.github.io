@@ -20,8 +20,15 @@ button{
   color: white;
   border-color: white;
 }
+ol{
+  color: purple;
+}
+
 .hide{
   display: none;
+}
+.photo{
+text-align: center;
 }
 
 .intro{
