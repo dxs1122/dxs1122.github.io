@@ -4,6 +4,7 @@ body{
 }
 h1,h2{
   font-family: 'Abril Fatface';
+  color: #291c4f;
 }
 h3{
   font-family: 'Abril Fatface';
@@ -12,7 +13,9 @@ h3{
 main{
   padding: 4rem 4rem 4rem 4rem;
   background-color:white;
+  border: 20px solid #291c4f;
   width: 60%;
+  margin: 0 auto;
 }
 button{
   font-size: 1.5em;
@@ -31,19 +34,6 @@ ol{
 text-align: center;
 }
 
-.intro{
-
-}
-.sauce{
-
-}
-.meatprep{
-
-}
-
 .explain{
 color: grey;
-}
-.ingredients{
-
 }

@@ -19,7 +19,7 @@
     <section class="intro">
       <div class="explain">
         <p>Having been in quarantine for over a month without being able to eat out, it is hard not to crave a <i>good burger.</i></p>
-        <p>I'm here to tell you that you can make burgers in your own home that taste like they come from In N' Out, McDonalds, Shake Shack etc (but are <i>tastier and more fresh</i>).</p>
+        <p>I'm here to tell you that you can make burgers in your own home that taste like they come from In N' Out, McDonalds, Shake Shack, etc. (but are <i>tastier and more fresh</i>).</p>
       </div>
       <div class="photo">
         <img src="images/RedDot_Burger.jpg" width="400">
@@ -74,11 +74,12 @@
       <p>Remember: Great burgers can take minutes. How? Smash-burger style!</p>
       </div>
       <ol>
-        <li>On high heat, put a minimal amount of oil in a pan. Before it reaches its peak heat for the meat, put the buns on to toast.</li>
+        <li>On high heat, put a minimal amount of oil in a pan. While the pan is heating up, put the buns on to toast.</li>
         <li>Once the pan has reached peak heat, take buns off and place patties on.</li>
         <li>Take two spatulas and <i>flatten/smash</i> the patties. Each side will take around 3-4 minutes to cook.</li>
         <li>Once one side is cooked and you flip the burgers, if you desire cheese, place it on the cooked side of the patties and cover the them with a lid so that the cheese steams.</li>
       </ol>
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/K7tTcBcjI0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
       <button class="backmeatprep" button type="button" name="Back">Back</button>
       <button class="step4" button type="button" name="Next">Next</button>
     </section>
@@ -110,8 +111,8 @@
       <div class="photo">
         <img src="images/In-N-Out_Hamburger_(16071149731)_(cropped).jpg" width="200">
       </div>
-      <!-- <button class="backveggie" button type="button" name="Back">Back</button>
-      <button class="beginning" button type="button" name="Beginning">Beginning</button> -->
+      <button class="fun" button type="button" name="Also">Also...</button>
+      <button class="backveggie" button type="button" name="Back">Back</button>
     </section>
 
 
@@ -163,7 +164,7 @@
       // Step Four veggie
       $(".step5").click(function(){
         $(".veggie").slideUp(500);
-        $(".toppings").show(500)
+        $(".toppings").show(500);
       });
 
       $(".backcooking").click(function(){
@@ -173,17 +174,14 @@
       });
 
       // Step Five toppings
-      // $(".beginning").click(function()){
-      //   $(".toppings").fadeOut(100);
-      //   $(".intro").fadeIn(500);
-      // });
-      //
-      // $(".backveggie").click(function(){
-      //   $(".toppings").slideDown(500);
-      //   $(".toppings").hide(500);
-      //   $(".veggie").show(500);
-      // });
-
+      $(".backveggie").click(function(){
+        $(".toppings").slideDown(500);
+        $(".toppings").hide(500);
+        $(".veggie").show(500);
+      });
+      $(".fun").mouseover(function(){
+        $("h1").prepend("<b>Stay inside!</b>");
+      });
     });
   </script>
 </body>
