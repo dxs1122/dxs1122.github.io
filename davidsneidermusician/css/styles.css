@@ -26,7 +26,7 @@ main{
   margin-left: auto;
   margin-right: auto;
   font-family: 'Poppins';
-  background-color: #DFDFDF;
+  background: black;
 }
 
 header{
@@ -279,7 +279,7 @@ video{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Poppins';
-    background-color: #DFDFDF;
+    background: black;
   }
 
   /*for navs*/
@@ -529,7 +529,7 @@ video{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Poppins';
-    background-color: #DFDFDF;
+    background: black;
   }
 
   /*for navs*/
