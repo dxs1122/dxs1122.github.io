@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 h1, h2, h3{
   font-family: 'Mukta', sans-serif;
   letter-spacing: 0.1em;
@@ -25,7 +28,7 @@ a:hover{
 
 main{
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 250px));
+  grid-template-columns: repeat(3, minmax(0, 250px));
   grid-template-rows: repeat(4 minmax (20px, auto));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -63,12 +66,10 @@ height: 30px;
 
 /*home grid*/
 .homephoto{
-  background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg) ;
   grid-column: 1/3;
   grid-row: 1/3;
   width: 520px;
   height: 520px;
-  background-size: cover;
 }
 .homebio1{
   grid-column: 3/4;
@@ -280,7 +281,7 @@ video{
 @media only screen and (max-width: 800px){
   main{
     display: grid;
-    grid-template-columns:2;
+    grid-template-columns:1;
     grid-template-rows: repeat(8 minmax (20px, auto));
     grid-row-gap: 20px;
     margin-left: auto;
@@ -310,29 +311,27 @@ video{
 
   /*home grid*/
   .homephoto{
-    background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg) ;
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/3;
     width: 250px;
     height: 250px;
-    background-size: cover;
   }
   .homebio1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 3/4;
     background: #FCF675;
     width: 250px;
     height: 250px;
   }
   .homebio2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 4/5;
     background: #FC7575;
     width: 250px;
     height: 250px;
   }
   .homenav1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 5/6;
     background-image: url(../images/45027291_1958000957626325_3379621692623028224_o.jpg);
     background-size: cover;
@@ -341,7 +340,7 @@ video{
     height: 250px;
   }
   .homenav2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 6/7;
     background-image: url(../images/67477959_1250552211771308_7053525567886327808_n.jpg);
     background-size: cover;
@@ -350,7 +349,7 @@ video{
     height: 250px;
   }
   .homenav3{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 7/8;
     background-image: url(../images/loveskellycopy.jpg);
     background-size: cover;
@@ -531,7 +530,7 @@ video{
 @media only screen and (max-width: 500px){
   main{
     display: grid;
-    grid-template-columns:2;
+    grid-template-columns:1;
     grid-template-rows: repeat(8 minmax (20px, auto));
     grid-row-gap: 20px;
     margin-left: auto;
@@ -561,29 +560,27 @@ video{
 
   /*home grid*/
   .homephoto{
-    background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg) ;
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/3;
     width: 250px;
     height: 250px;
-    background-size: cover;
   }
   .homebio1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 3/4;
     background: #FCF675;
     width: 250px;
     height: 250px;
   }
   .homebio2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 4/5;
     background: #FC7575;
     width: 250px;
     height: 250px;
   }
   .homenav1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 5/6;
     background-image: url(../images/45027291_1958000957626325_3379621692623028224_o.jpg);
     background-size: cover;
@@ -592,7 +589,7 @@ video{
     height: 250px;
   }
   .homenav2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 6/7;
     background-image: url(../images/67477959_1250552211771308_7053525567886327808_n.jpg);
     background-size: cover;
@@ -601,7 +598,7 @@ video{
     height: 250px;
   }
   .homenav3{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 7/8;
     background-image: url(../images/loveskellycopy.jpg);
     background-size: cover;
@@ -613,14 +610,14 @@ video{
   /*tpt grid*/
   .tptbio1{
     background:#FCF675 ;
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/3;
     width: 250px;
     height: 520px;
     font-size: .8em;
   }
   .tptvideo{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 3/4;
     background: #FCF675;
     width: 250px;
@@ -628,7 +625,7 @@ video{
     text-align: center;
   }
   .tptbio2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 4/5;
     background-image: url(../images/90728031_2862309387195473_1156462481804099584_o.jpg);
     background-size: cover;
@@ -636,7 +633,7 @@ video{
     height: 250px;
   }
   .tptnav1{
-    grid-column: 1/2;
+    grid-column: 1/;
     grid-row: 5/6;
     background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg);
     background-size: cover;
@@ -645,7 +642,7 @@ video{
     height: 250px;
   }
   .tptnav2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 6/7;
     background-image: url(../images/67477959_1250552211771308_7053525567886327808_n.jpg);
     background-size: cover;
@@ -654,7 +651,7 @@ video{
     height: 250px;
   }
   .tptnav3{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 7/8;
     background-image: url(../images/loveskellycopy.jpg);
     background-size: cover;
@@ -670,7 +667,7 @@ video{
 
   /*teacher grid*/
   .teacherbio1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/2;
     background: #FC7575;
     width: 250px;
@@ -678,7 +675,7 @@ video{
     font-size: .9em;
   }
   .teacherbio2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 2/3;
     background: #FC7575;
     width: 250px;
@@ -686,7 +683,7 @@ video{
     font-size: .9em;
   }
   .teacherphoto{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 3/5;
     background-image: url(../images/IMG_0500.JPG);
     background-size: 200%;
@@ -695,7 +692,7 @@ video{
     height: 520px;
   }
   .teachernav1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 5/6;
     background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg) ;
     background-size: cover;
@@ -704,7 +701,7 @@ video{
     height: 250px;
   }
   .teachernav2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 6/7;
     background-image: url(../images/45027291_1958000957626325_3379621692623028224_o.jpg);
     background-size: cover;
@@ -713,7 +710,7 @@ video{
     height: 250px;
   }
   .teachernav3{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 7/8;
     background-image: url(../images/loveskellycopy.jpg);
     background-size: cover;
@@ -724,7 +721,7 @@ video{
 
   /*producer grid*/
   .nophoto{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/2;
     background-image: url(../images/loveskellycopy.jpg);
     background-size: cover;
@@ -738,20 +735,20 @@ video{
     height: 250px;
   }
   .noaudio{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 3/4;
     width: 250px;
     height: 250px;
   }
   .nobio{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 4/5;
     background: #75C3FC;
     width: 250px;
     height: 520px;
   }
   .nonav1{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 5/6;
     background-image: url(../images/70127461_2455754334517649_6584997266421972992_o.jpg) ;
     background-size: cover;
@@ -760,7 +757,7 @@ video{
     height: 250px;
   }
   .nonav2{
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 6/7;
     background-image: url(../images/45027291_1958000957626325_3379621692623028224_o.jpg);
     background-size: cover;
